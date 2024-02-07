@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Pixel 8/8 Pro -->
+  <remote name="aosp-shusky" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-14.0.0_r25" clone-depth="1" />
+
   <remove-project path="hardware/google/pixel-sepolicy" />
 
   <!-- GS101/GS201 -->
