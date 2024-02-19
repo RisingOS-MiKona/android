@@ -26,16 +26,12 @@
   <remove-project path="frameworks/libs/net" />
   <remove-project path="frameworks/libs/systemui" />
   <remove-project path="frameworks/native" />
-  <remove-project path="packages/apps/Aperture" />
   <remove-project path="packages/apps/AudioFX" />
   <remove-project path="packages/apps/Backgrounds" />
-  <remove-project path="packages/apps/Eleven" />
   <remove-project path="packages/apps/Etar" />
   <remove-project path="packages/apps/FlipFlap" />
   <remove-project path="packages/apps/Jelly" />
   <remove-project path="packages/apps/LineageParts" />
-  <remove-project path="packages/apps/Recorder" />
-  <remove-project path="packages/apps/Seedvault" />
   <remove-project path="packages/apps/Settings" />
   <remove-project path="packages/apps/SimpleDeviceConfig" />
   <remove-project path="packages/apps/Trebuchet" />
