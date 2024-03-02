@@ -18,14 +18,17 @@
   <remove-project path="build/make" />
   <remove-project path="build/soong" />
   <remove-project path="device/lineage/sepolicy" />
+  <remove-project path="external/arm-optimized-routines" />
   <remove-project path="external/libaom" />
   <remove-project path="external/skia" />
+  <remove-project path="external/sqlite" />
   <remove-project path="external/zxing" />
   <remove-project path="frameworks/av" />
   <remove-project path="frameworks/base" />
   <remove-project path="frameworks/libs/net" />
   <remove-project path="frameworks/libs/systemui" />
   <remove-project path="frameworks/native" />
+  <remove-project path="hardware/interfaces" />
   <remove-project path="packages/apps/AudioFX" />
   <remove-project path="packages/apps/Backgrounds" />
   <remove-project path="packages/apps/Etar" />
@@ -42,6 +45,7 @@
   <remove-project path="system/core" />
   <remove-project path="system/memory/lmkd" />
   <remove-project path="system/sepolicy" />
+  <remove-project path="toolchain/pgo-profiles" />
   <remove-project path="vendor/lineage" />
   
   <!-- Build  -->
@@ -71,8 +75,10 @@
   <project path="bootable/recovery" name="RisingTechOSS/android_bootable_recovery" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
 
   <!-- External -->
+  <project path="external/arm-optimized-routines" name="RisingTechOSS/android_external_arm-optimized-routines" groups="pdk" remote="github" revision="fourteen" />
   <project path="external/libaom" name="RisingTechOSS/android_external_libaom" groups="pdk" remote="github" revision="fourteen" />
   <project path="external/skia" name="RisingTechOSS/android_external_skia" groups="pdk,qcom_msm8x26" remote="github" revision="fourteen" />
+  <project path="external/sqlite" name="RisingTechOSS/android_external_sqlite" groups="pdk" remote="github" revision="fourteen" />
   <project path="external/zxing" name="RisingTechOSS/android_external_zxing" groups="pdk" remote="github" revision="fourteen" />
 
   <!-- Frameworks -->
@@ -81,6 +87,9 @@
   <project path="frameworks/libs/net" name="RisingTechOSS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="github" revision="fourteen" />
   <project path="frameworks/libs/systemui" name="RisingTechOSS/android_frameworks_libs_systemui" remote="github" groups="pdk-cw-fs,pdk-fs" revision="fourteen" />
   <project path="frameworks/native" name="RisingTechOSS/android_frameworks_native" remote="github" groups="pdk" revision="fourteen" />
+  
+  <!-- Hardware -->
+  <project path="hardware/interfaces" name="RisingTechOSS/android_hardware_interfaces" groups="pdk" revision="fourteen"/>
 
   <!-- Non-AOSP Packages  -->
   <project path="packages/apps/Backgrounds" name="RisingTechOSS/android_packages_apps_Backgrounds" remote="github" revision="fourteen" />
@@ -105,6 +114,9 @@
   <project path="system/core" name="RisingTechOSS/android_system_core" remote="github" groups="pdk" revision="fourteen" />
   <project path="system/memory/lmkd" name="RisingTechOSS/android_system_memory_lmkd" remote="github" groups="pdk" revision="fourteen" />
   <project path="system/sepolicy" name="RisingTechOSS/android_system_sepolicy" remote="github" groups="pdk" revision="fourteen" />
+  
+  <!-- Toolchain  -->
+  <project path="toolchain/pgo-profiles" name="RisingTechOSS/android_toolchain_pgo-profiles" groups="pdk" remote="github" revision="fourteen" />
 
    <!-- Vendor  -->
   <project path="vendor/addons" name="RisingTechOSS/android_vendor_addons" groups="pdk-fs" remote="github" revision="fourteen" />
