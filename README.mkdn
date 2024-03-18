@@ -18,7 +18,7 @@ Getting Started
 ---------------
 **Initialize local repository (thanks to apon77 for repo init script)**
 ```bash
-repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+repo init -u https://github.com/RisingOS-MiKona/android -b fourteen --git-lfs
 ```
 
 **Sync up with this command:**

@@ -89,7 +89,7 @@
   <project path="frameworks/native" name="RisingTechOSS/android_frameworks_native" remote="github" groups="pdk" revision="fourteen" />
   
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="RisingTechOSS/android_hardware_interfaces" groups="pdk" revision="fourteen"/>
+  <project path="hardware/interfaces" name="RisingTechOSS/android_hardware_interfaces" groups="pdk" remote="github" revision="fourteen"/>
 
   <!-- Non-AOSP Packages  -->
   <project path="packages/apps/Backgrounds" name="RisingTechOSS/android_packages_apps_Backgrounds" remote="github" revision="fourteen" />
@@ -123,8 +123,7 @@
   <project path="vendor/gms" name="minaripenguin/android_vendor_gms" groups="pdk-fs" remote="gitlab" revision="fourteen" />
   <project path="vendor/google/interfaces" name="RisingTechOSS/android_vendor_google_interfaces" groups="pdk-fs" remote="github" revision="fourteen" />
   <project path="vendor/pixel-framework" name="RisingTechOSS/vendor_pixel-framework" remote="github" revision="fourteen" />
-  <project path="vendor/lineage" name="RisingTechOSS/android_vendor_lineage" remote="github" revision="fourteen" />
+  <project path="vendor/lineage" name="RisingOS-MiKona/android_vendor_lineage" remote="github" revision="fourteen" />
   <project path="vendor/rising" name="RisingTechOSS/android_vendor_rising" groups="pdk-fs" remote="github" revision="fourteen" />
   <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" remote="github" revision="fourteen" />
 </manifest>
-
